@@ -6,7 +6,9 @@ The training was done on the ADE20k and Pascal Parts data set.
 See this [https://arxiv.org/pdf/1908.09108.pdf](https://arxiv.org/pdf/1908.09108.pdf) for more details on the method 
 # Pointer net
 Pointer net is a fully convolutional net that receives an image, a mask, of an object region and a point inside the object. The net predicts the region of the part that contains the input point (Figure 1). The generated output segment region will be confined to the Object mask. Selecting random points inside the object and then merging the prediction into one annotation map allows for full image segmentation.
-Fully trained system ready to run could be found [here](IIIIIIIIIIIIIII)
+
+Fully trained system ready to run could be found [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing)
+
 The net runs best as part of the generator evaluator selector (GES) approach. See the parent folder for more details.
 
 
@@ -20,7 +22,7 @@ Figure 2) Using pointer segmentation for full object into part segmentation
 This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/download/) package and [Pytorch 1](https://pytorch.org/) and opencv. The training was done using Nvidia GTX 1080.
 
 # Running the net:
-1. Download the pre-trained system from [here](IIIIIIIIIIIIIII) or train using the instruction in training
+1. Download the pre-trained system from [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing) or train using the instruction in training.
 2. Go to RunSegmentation.py and run (to run on example data).
 
 ## Parameters:
