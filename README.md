@@ -35,7 +35,7 @@ See PointerSegmentation and evaluator folders for instruction training individua
 1. Train net or download pre-trained system [here] ()
 2. Generate training data using the PointerSegmentation folder.
 3. open EVALUATE_GES.py
-4. Set path to the generated evaluation data
+4. Set path to the generated evaluation data:
    
    MaskDir =  Annotation folder 
    
