@@ -38,33 +38,50 @@ See Example inputs for example inputs
 ## Generate training data using ADE20k (recommend)
 1. Download ADE20k from [here](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
 2. Open ConvertADE20kToTraining.py script inside the GenerateTrainingData folder
-2. Set input and output paths in the input parameters section
+2. Set input and output paths in the input parameters section:
+
  Ade20kMainDir = Path to the ADE20k main folder   (ADE20K_2016_07_26/images/training/")
- OutLabelDir = folder where the  converted output labels will be saved 
- OutImageDir= folder where images will be saved
+
+OutLabelDir = folder where the  converted output labels will be saved 
+
+OutImageDir= folder where images will be saved
+
 See Example folder for example training/evaluation data.
+
 ## Generate training data using Pascal Parts
 1. Download pascal parts  annotation from [here](http://roozbehm.info/pascal-parts/pascal-parts.html) and [images](https://cs.stanford.edu/~roozbeh/pascal-context/)
 2. Open ConvertPascalPartsToTraining.py script inside the GenerateTrainingData folder
-2. Set input and output paths in the input parameters section
+3. Set input and output paths in the input parameters section:
+
 PascalPartLabelDir = Annotation Folder from the pascal part 
+
 PascalImageDir = Image folder from the pascal dataset
+
 OutDir = Folder where converted annotations will be saved
+
+4. Run Script. 
 
 # Training
 1. Generate training data using the instructions above
 2. Open TRAIN.py
-3. Set paths to the training data in the input data section
- AnnDir = Path to the generated training annotations
- ImageDir = Path to the generated image dir
+3. Set paths to the training data in the input data section:
+
+AnnDir = Path to the generated training annotations
+
+ImageDir = Path to the generated image dir
+
 4. Run script. The trained model will be saved into the log folder.
 
 # Generating Training data for the evaluator net
 If you using this system as part of the Generator evaluator system you can use the trained model to generate training data for the evaluator net.
 1. Open GenerateTrainingDataForEvaluator.py script
-2. Update input parameters in the Input parameters section
+2. Update input parameters in the Input parameters section:
+
 modelDir = folder where the trained models are stored ( logs/)
+
 AnnDir = Path to the generated training annotations folder
+
 ImageDir = Path to the generated image folder 
+
 OutDir = Path to the generated  evaluator training data will be saved
 
