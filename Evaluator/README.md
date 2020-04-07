@@ -15,15 +15,21 @@ See the Example folder, for example, training/evaluation data.
 1. Generate training data using the instructions above.
 2. open Train.py
 3. Set path to the generated a training data
-   AnnDir= Annotation folder 
-   ImageDir=  Image folder
+
+   AnnDir = Annotation folder
+   
+   ImageDir =  Image folder
+   
 4. Run script. The results will appear in the log folder.
 
 # Evaluation
 1. Train net or download pre-trained net [here] (or train the net)
 2. Generate training data using the instructions above.
 3. open Evaluate.py
-4. Set path to the generated evaluation data
-   AnnDir=  Annotation folder 
-   ImageDir=  Image folder
+4. Set path to the generated evaluation data:
+   
+   AnnDir = Annotation folder 
+   
+   ImageDir =  Image folder
+   
 5. Run script.
