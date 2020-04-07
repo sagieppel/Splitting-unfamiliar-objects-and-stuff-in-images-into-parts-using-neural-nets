@@ -5,7 +5,7 @@ The system is a combination of two nets: a generator net and an evaluator net. T
 and segment all the parts of this object.  This is class agnostic and works even for unfamiliar objects that did not appear in the training set.
 Based on two nets, one generate a proposal for object parts, and another evaluates the proposals.
 For more details see this [document](https://arxiv.org/pdf/1908.09108.pdf) 
-Train model can be downloaded for [here]()
+Train model can be downloaded from [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing)
 ![](Figure1.png)
 ## Requirements
 This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/download/) package and [Pytorch 1](https://pytorch.org/) and opencv. The training was done using Nvidia GTX 1080.
