@@ -14,7 +14,7 @@ See the Example folder, for example, training/evaluation data.
 # Training
 1. Generate training data using the instructions above.
 2. open Train.py
-3. Set path to the generated a training data
+3. Set path to the generated a training data:
 
    AnnDir = Annotation folder
    
