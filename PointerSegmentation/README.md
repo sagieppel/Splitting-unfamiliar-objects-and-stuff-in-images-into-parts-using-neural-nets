@@ -38,7 +38,7 @@ See Example inputs for example inputs
 ## Generate training data using ADE20k (recommend)
 1. Download ADE20k from [here](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
 2. Open ConvertADE20kToTraining.py script inside the GenerateTrainingData folder
-2. Set input and output paths in the input parameters section:
+3. Set input and output paths in the input parameters section:
 
  Ade20kMainDir = Path to the ADE20k main folder   (ADE20K_2016_07_26/images/training/")
 
@@ -47,6 +47,8 @@ OutLabelDir = folder where the  converted output labels will be saved
 OutImageDir= folder where images will be saved
 
 See Example folder for example training/evaluation data.
+
+4. Run Script
 
 ## Generate training data using Pascal Parts
 1. Download pascal parts  annotation from [here](http://roozbehm.info/pascal-parts/pascal-parts.html) and [images](https://cs.stanford.edu/~roozbeh/pascal-context/)
