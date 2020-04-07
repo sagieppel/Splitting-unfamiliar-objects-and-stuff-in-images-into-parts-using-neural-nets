@@ -17,9 +17,13 @@ This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/downlo
 
 ## Parameters:
 Trained_model_path = path to trained model
+
 InImage = path input image
+
 InObjectMask = path object mask region as a binary mask
+
 OutAnnotationFile = Output annotation file path
+
 See Example inputs for example inputs
 
 
@@ -32,7 +36,10 @@ See PointerSegmentation and evaluator folders for instruction training individua
 2. Generate training data using the PointerSegmentation folder.
 3. open EVALUATE_GES.py
 4. Set path to the generated evaluation data
-   MaskDir=  Annotation folder 
-   ImageDir=  Image folder
+   
+   MaskDir =  Annotation folder 
+   
+   ImageDir =  Image folder
+   
    See Example Folder for data format.
 5. Run script.
