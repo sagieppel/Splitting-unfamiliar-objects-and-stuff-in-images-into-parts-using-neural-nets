@@ -15,7 +15,7 @@ The net runs best as part of the generator evaluator selector (GES) approach. Se
 Figure 1) Pointer part segmentation architecture 
 
 ![](/PointerSegmentation/Figure2.png)
-Figure 2) Using pointer segmentation for full part segmentation
+Figure 2) Using pointer segmentation for full object into part segmentation
 ## Requirements
 This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/download/) package and [Pytorch 1](https://pytorch.org/) and opencv. The training was done using Nvidia GTX 1080.
 
