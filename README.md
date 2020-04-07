@@ -12,7 +12,7 @@ This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/downlo
 
 # Running segmentation
 # Running the net:
-1. Download the pre-trained system from [here](IIIIIIIIIIIIIII) or train using the instruction in training
+1. Download the pre-trained system from [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing) or train using the instruction in training
 2. Go to RunSegmentation.py and run (to run on example data).
 
 ## Parameters:
@@ -32,7 +32,7 @@ See Example inputs for example inputs
 See PointerSegmentation and evaluator folders for instruction training individual nets.  
 
 # Evaluation
-1. Train net or download pre-trained system [here] ()
+1. Train net or download pre-trained system [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing)
 2. Generate training data using the PointerSegmentation folder.
 3. open EVALUATE_GES.py
 4. Set path to the generated evaluation data:
