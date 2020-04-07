@@ -23,7 +23,7 @@ See the Example folder, for example, training/evaluation data.
 4. Run script. The results will appear in the log folder.
 
 # Evaluation
-1. Train net or download pre-trained net [here] (or train the net)
+1. Train net or download pre-trained net [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing)
 2. Generate training data using the instructions above.
 3. open Evaluate.py
 4. Set path to the generated evaluation data:
