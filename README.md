@@ -1,4 +1,4 @@
-# Generator evaluator selector (GES) net for object part segmentation
+# Generator evaluator selector (GES) net for class agnostic part segmentation
 ## See parent folder for usage instructions  
 
 The system is a combination of two nets: a generator net and an evaluator net. The system receives an image and a mask of an object as input
