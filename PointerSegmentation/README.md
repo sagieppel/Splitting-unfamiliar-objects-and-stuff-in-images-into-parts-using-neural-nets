@@ -38,7 +38,7 @@ See Example inputs for example inputs
 
 # Generating Data for training and evaluation
 ## Generate training data using ADE20k (recommend)
-1. Download ADE20k from [here](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
+1. Download ADE20k from [here](https://deepai.org/dataset/ade20k) or [here](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
 2. Open ConvertADE20kToTraining.py script inside the GenerateTrainingData folder
 3. Set input and output paths in the input parameters section:
 
