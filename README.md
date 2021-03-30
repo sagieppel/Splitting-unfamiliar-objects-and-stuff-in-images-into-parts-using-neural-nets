@@ -11,8 +11,7 @@ Train model can be downloaded from [here](https://drive.google.com/file/d/1eA_zc
 ## Requirements
 This network was run with Python 3.7  [Anaconda](https://www.anaconda.com/download/) package and [Pytorch 1](https://pytorch.org/) and opencv. The training was done using Nvidia GTX 1080.
 
-# Running segmentation
-# Running the net:
+# Running single image segmentation example:
 1. Download the pre-trained system from [here](https://drive.google.com/file/d/1eA_zc9GtXbGMjqp7Ok64a7yWrZFq1RFu/view?usp=sharing) or train using the instruction in training
 2. Go to RunSegmentation.py and run (to run on example data).
 
