@@ -23,7 +23,7 @@ ImageDir="Example/Training/Images//"
 TrainedModelWeightDir="logs/" # Folder where trained model weight and information will be stored"
 if not os.path.exists(TrainedModelWeightDir): os.mkdir(TrainedModelWeightDir)
 Trained_model_path="" # Path of trained model weights If you want to return to trained model, else should be =""
-Learning_Rate_Init=1e-4 # Initial learning rate
+Learning_Rate_Init=1e-5 # Initial learning rate
 Learning_Rate=1e-5 # learning rate
 #=========================Load Paramters====================================================================================================================
 InitStep=1
